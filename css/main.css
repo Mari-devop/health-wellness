@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+    background-color: var(--primary-background-color);
+    user-select: none; 
+}

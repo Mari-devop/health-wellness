@@ -1,0 +1,12 @@
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #FF8902;
+    --primary-background-color: #111111;
+    --secondary-background-color: #1D1D1D;
+    --border-color: linear-gradient(90deg, #999999 70%, #dddddd 70%);
+    --divider-color: linear-gradient(to right, #999999 40%, #FFFFFF 100%);
+    --button-color: #FFFFFF;
+    --title-font: "Raleway";
+    --body-font: "Biryani", sans-serif;
+    --button-font: "Josefin Sans", sans-serif;
+}

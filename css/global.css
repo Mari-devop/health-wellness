@@ -1,0 +1,252 @@
+/*//////////////////////
+///// TYPOGRAPHY ///////
+//////////////////////*/
+
+.text-small {
+    font-family: var(--body-font);
+    font-weight: 275;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.text-button {
+    font-family: var(--button-font);
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 0.4rem;
+}
+
+.text-tiny {
+    font-family: var(--body-font);
+    font-weight: 275;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.title-main {
+    font-family: var(--title-font);
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+    text-transform: uppercase;
+}
+
+.subtitle-main {
+    font-family: var(--title-font);
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+}
+
+.title-secondary {
+    font-family: var(--body-font);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+.subtitle-secondary {
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+/*//////////////////////
+///// BUTTONS //////////
+//////////////////////*/
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 0.6rem;
+    transition: transform 0.3s ease; 
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*//////////////////////
+///// MEDIA QUERIES //////////
+//////////////////////*/
+
+@media (max-width: 1723px) {
+    .text-small {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media (max-width: 1529px) {
+    .text-small {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .title-secondary {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+
+    .subtitle-secondary {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .text-tiny {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media (max-width: 1272px) {
+    .title-main {
+        font-size: 3.4rem;
+        line-height: 3.5rem;
+    }
+
+    .subtitle-main {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+}
+
+
+@media (max-width: 1013px) {
+    .text-small {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .text-button {
+        font-size: 0.8rem;
+    }
+
+    .title-secondary {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+
+    .subtitle-secondary {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .text-tiny {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .title-main {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .subtitle-main {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+
+    .title-secondary {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .subtitle-secondary {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+
+    .text-tiny {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+}
+
+@media (max-width: 773px) {
+    .text-small {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+    .title-main {
+        font-size: 2.2rem;
+        line-height: 2.3rem;
+    }
+
+    .subtitle-main {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .text-small {
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 615px) {
+    .title-main {
+        font-size: 2rem;
+        line-height: 2.1rem;
+    }
+
+    .subtitle-main {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .title-secondary {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+
+    .subtitle-secondary {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .text-tiny {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+}
+
+@media (max-width: 559px) {
+    .text-small {
+        font-size: 0.4rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 534px) {
+    .text-small {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+}
+
+@media (max-width: 334px) {
+    .title-main {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .subtitle-main {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+}

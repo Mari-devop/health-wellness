@@ -1,0 +1,30 @@
+.hw-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.1rem;
+}
+
+.hw-button-section__main-button {
+    width: 20rem;
+    height: 3.7rem;
+    text-align: center;
+}
+
+@media (max-width: 1013px) {
+    .hw-button-section__main-button {
+        width: 13.4rem;
+        height: 3.1rem;
+    }
+
+    .hw-button-section {
+        margin-top: 3.1rem;
+    }
+}
+
+@media (max-width: 1013px) {
+    .hw-button-section__main-button {
+        width: 10.4rem;
+    }
+}
+
