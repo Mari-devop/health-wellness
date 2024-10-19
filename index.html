@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="css/service-section.css">
     <title>Health & Wellness</title>
 </head>
+
 <body>
     <section class="hw-main-section">
         <div class="hw-main-section__image-container hw-main-section__image-container--left-digit">
@@ -54,23 +56,32 @@
             </div>
             <div class="hw-service-section__container-center">
                 <img src="assets/images/main-picture.png" alt="health and wellness heart"
-                    class="hw-service-section__image">
+                    class="hw-service-section__image" id="mainImage">
             </div>
             <div class="hw-service-section__container-right">
-                <p class="hw-service-section__text subtitle-secondary active">Health & Wellness</p>
+                <p class="hw-service-section__text subtitle-secondary active" data-image="assets/images/main-picture.png">
+                    Health & Wellness
+                </p>
                 <hr class="hw-service-section__divider" />
-                <p class="hw-service-section__text subtitle-secondary">Construction</p>
+                <p class="hw-service-section__text subtitle-secondary" data-image="assets/images/industrial.png">
+                    Construction</p>
                 <hr class="hw-service-section__divider" />
-                <p class="hw-service-section__text subtitle-secondary">Home Services</p>
+                <p class="hw-service-section__text subtitle-secondary" data-image="assets/images/ecommerce.png">Home
+                    Services</p>
                 <hr class="hw-service-section__divider" />
-                <p class="hw-service-section__text subtitle-secondary">eCommerce</p>
+                <p class="hw-service-section__text subtitle-secondary" data-image="assets/images/construction.png">eCommerce
+                </p>
                 <hr class="hw-service-section__divider" />
-                <p class="hw-service-section__text subtitle-secondary">IT Companies</p>
+                <p class="hw-service-section__text subtitle-secondary" data-image="assets/images/companies.png">IT
+                    Companies</p>
                 <hr class="hw-service-section__divider" />
-                <p class="hw-service-section__text subtitle-secondary">Industrial</p>
+                <p class="hw-service-section__text subtitle-secondary" data-image="assets/images/services.png">Industrial
+                </p>
                 <hr class="hw-service-section__divider position" />
             </div>
         </div>
     </section>
+    <script src="/script.js"></script>
 </body>
+
 </html>
